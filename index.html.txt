@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img</title>
+</head>
+<body>
+    <h3>the code magazine</h3>
+    <a href="#">Blog Challenges Flexbox CSS Grid</a>
+    <h3>The Basic Language of the Web: HTML</h3>
+    <img src="Gear-Laptop-Monitor-159167665.webp" alt="" width="50" height="50">
+    <p>Posted by <span style="font-weight:bold">Laura Jones</span> on Monday, June 21st 2027</p>
+    <img src="Gear-Laptop-Monitor-159167665.webp" alt="" width="420" height="200">
+    <p>All modern websites and web applications are built using three fundamental technologies:
+         HTML, CSS and JavaScript. These are the languages of the web.</p>
+    <p>In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.</p>  
+    <h3>What is HTML?</h3>   
+    <p>HTML stands for <span style="font-weight: 900;">H</span>yper <span style="font-weight: 900;">T</span>ext <span style="font-weight: 900;">M</span>arkup <span style="font-weight: 900;">L</span>anguage. 
+        It's a markup language that web developers use to structure and describe the 
+        content of a webpage (not a programming language).</p>
+    <p>HTML consists of elements that describe different types of content: paragraphs, links, 
+        headings, images, video, etc. Web browsers understand HTML and render HTML code as websites.</p>  
+    <p>In HTML, each element is made up of 3 parts:</p> 
+    <div >
+        <p>1.The opening tag</p>
+        <p>2.The closing tag</p>
+        <p>3.The actual element</p>   
+    </div>
+
+    <p>you can learn more at <a href="#">MND</a> </p>
+    <br>
+    <h3>Why should you learn HTML?</h3>
+    <p>There are countless reasons for learning the fundamental language of the web. Here are 5 of them:</p>
+    <ul>
+        <li>To be able to use the fundamental web dev language</li>
+        <li>To hand-craft beautiful websites instead of relying on tools like Worpress or Wix</li>
+        <li>To build web applications</li>
+        <li>To impress friends</li>
+        <li>to have fun</li>
+    </ul>
+    <p>Hopefully you learned something new here. See you next time!</p>
+    <div>
+        <h3>related Posts</h3>
+        <ul>
+            <li><img src="Gear-Laptop-Monitor-159167665.webp" alt="" width="60" height="60"> <a href="#">How to learn Web Development</a></li>
+            <p>By Jonas Shmedtmann</p>
+            <br>
+            <li><img src="Gear-Laptop-Monitor-159167665.webp" alt="" width="60" height="60"> <a href="#">The Unknown Powers of CSS</a></li>
+            <p>By Jim Dillon</p>
+            <br>
+            <li><img src="Gear-Laptop-Monitor-159167665.webp" alt="" width="60" height="60"> <a href="#">Why JavaScript is Awesome</a></li>
+            <p>By Matilda</p>
+        </ul>
+    </div>
+    <form action="">
+        <label for="1" style="background-color: rgb(171, 27, 61); color: white;">name</label>
+        <input type="text" id="1" required placeholder="Enter Your name" autofocus>
+        <label for="2"  style="background-color:rgb(171, 27, 61); color: white;">code</label>
+        <input type="password"  required placeholder="Enter Your code" id="2">
+        <select name="" id="">
+            <option value="1">year1</option>
+            <option value="2">year2</option>
+            <option value="3">year3</option>
+        </select>
+        <button>END</button>
+        <hr>
+        <p>Copyright &copy 2027 by the Code Magazine</p>
+    </form>
+</body>
+</html>
